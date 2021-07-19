@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'paint_vietnam_flag/paint_vietnam_flag.dart';
+import 'paint_popover/popover_paint.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           body: Center(
-            child: VietnamFlag(),
+            child: PopoverPaint(),
           ),
         ),
       ),
