@@ -1,2 +1,2 @@
-# practice_custom_paint
+# Practice Custom Paint
 Practice custom paint
