@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       ),
       home: SafeArea(
         child: Scaffold(
+          appBar: AppBar(title: Text('Custom Paint')),
           body: Center(
             child: PopoverPaint(),
           ),
